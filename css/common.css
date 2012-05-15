@@ -1,0 +1,27 @@
+body{
+ background:url('/coxy/img/background.png');
+}
+
+div.book{
+ background:url('/coxy/img/book.png');
+ background-repeat:no-repeat;
+ width: 1030px;
+ height: 606px;
+ position:fixed;
+ top:12%;
+ left:12%;
+ padding-left:100px;
+ padding-top:20px;
+}
+
+.right{
+ float:right;
+}
+
+.left{
+ float:left;
+}
+
+.clearfix{
+ clear:both;
+}
