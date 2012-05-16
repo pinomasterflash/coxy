@@ -1,9 +1,9 @@
 body{
- background:url('/coxy/img/background.png');
+ background:url('/img/background.png');
 }
 
 div.book{
- background:url('/coxy/img/book.png');
+ background:url('/img/book.png');
  background-repeat:no-repeat;
  width: 1030px;
  height: 606px;
