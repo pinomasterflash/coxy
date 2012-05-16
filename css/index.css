@@ -5,8 +5,36 @@ div.content{
  height:552px;
 }
 
-img.right{
+img.scotchright{
  position:relative;
  top:-10px;
  right:-25px;
+}
+
+div.scotchleft{
+ padding-top:360px;
+ #background:url('/img/scotch.png');
+ #background-repeat:no-repeat;
+}
+img.scotchleft{
+ position:relative;
+ left:-10px;
+}
+
+img.bike{
+ position:relative;
+ top:-70px;
+}
+
+img.logo{
+ position:relative;
+ left:-40px;
+ top:30px;
+}
+
+img.link{
+ position:relative;
+ left:30px;
+ top:30px;
+ cursor:pointer;
 }

@@ -22,6 +22,17 @@ div.book{
  float:left;
 }
 
-.clearfix{
- clear:both;
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+html[xmlns] .clearfix {
+    display: block;
+}
+* html .clearfix {
+    height: 1%;
 }
